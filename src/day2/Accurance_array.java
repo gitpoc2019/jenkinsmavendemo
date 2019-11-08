@@ -1,6 +1,6 @@
 package day2;
 
-public class day2test {
+public class Accurance_array {
 
 	public static void main(String[] args) {
 
@@ -8,7 +8,7 @@ public class day2test {
 				6, 43, 2, 4, 7, 7, 5, 2, 1, 3, 4, 6, 311, 1 };
 		
 int b=0;
-		for (int i = 0; i < x.length - 1; i++) {
+		for (int i = 0; i < x.length; i++) {
 			for (int j = i; j < x.length; j++) {
 				if (x[i] > x[j]) {
 					int temp = x[i];
